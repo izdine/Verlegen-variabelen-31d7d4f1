@@ -1,6 +1,6 @@
-var mynumber = document.querySelector("input");
-
+let mynumber = document.querySelector("input");
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = mynumber.value *  Math.PI;
+  document.getElementById("omtrek").innerHTML = mynumber.value *  Math.PI;
+document.getElementById("Oppervlakte").innerHTML = mynumber.value * mynumber.value * Math.PI * 0.25;
 }
